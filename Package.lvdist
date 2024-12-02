@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="0311938BC6875FDA5BEB3227B480ECA12BE88C2029CA328E6E8BDBEEC176582D38C654A668D76D2AC3B2D9D9D25DCBF836D105C1FCCB8058B7A92A06E681FCCF" Timestamp="1DB3C136864D117" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.5.0.49854" Name="G Web Development Software" Version="22.3.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition OutputDirectory="&quot;C:\\Users\\Engineer_LabVIEW\\Desktop\\MAO_Database_Web_UI\\Builds&quot;" ShortDescription="Web_UI" TargetedProduct="LabVIEW" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionOutput CachedDisplayName="Package Installer" Id="e18326a792d24379a685745f6cfc5bca" p3:CustomNipmPackageName="webui" p3:DistributionCategory="Application" p3:PackageDisplayName="Package" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="c9567d9b33504955b37ebfa7d23e99d3" />
+		<DistributionDependencyContent DisplayName="ni-certificates" Id="8d866ac15777491cbdb3df0315d187d4" Included="False" Name="ni-certificates" RequirementType="Recommended" VersionRequirement="None" />
+	</DistributionDefinition>
+</SourceFile>

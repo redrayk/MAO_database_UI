@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="18974EC275C985E01F737EE9E5106DA405019D723D8BEF3591211AD83B09A033C16B7D3BB551353A2B9C0233B6EB8AAC1FEAFE3EC4F7907253CCAD3BBF62E4B1" Timestamp="1DAE99D1C5EA4F6" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.5.0.49854" Name="G Web Development Software" Version="22.3.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@02eaa9d954854b79a4cf6a2e96d516ce" Id="789792ab17b04e45bdd5c49d725bf6dc" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="e8877842ce694627839df51373104d1a" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="d7cfc32ceb974043bad68d57522bff9e" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="46e1c751f814afb894135acf6d3978e" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@02eaa9d954854b79a4cf6a2e96d516ce" Id="6acf4a6424f7416da460f650d297881e" Name="Statas">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="741fecec0ae456fb561dda98ad81ff5" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="67dbab9bc3cd4cd9ba916b094ee1be45" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="77b6c919e22a41b9bf39179ac90382c8" Name="main_states.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="fac50aa5016b4aae880b71d7fcf766bf" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Indicator" Id="248190c7cc444d80b13cf2f3a32b4de5" xmlns="http://www.ni.com/MocCommon">
+					<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="272196c515584e35af57b81a39e4f428" InteractionMode="[SelectorInteractionModes]ReadOnly" IsTypeAheadEnabled="[bool]True" Label="[UIModel]c0cecb9646c546949224c3c1841067b4" Left="[float]430" TabIndex="[int]0" Top="[float]353" Value="{DataItemBinding Id=6acf4a6424f7416da460f650d297881e}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]100" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<EnumSelectorInfo DisplayValue="[string]Wait_for_event" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]init" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]load_part_image" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]stop" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]get_parts_list" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]get_alloys_list" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]5" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]mao_recom_request" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]6" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]cxto_recom_request" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]7" ValueType="[Type]UInt16" />
+					</EnumSelector>
+					<Label Height="[float]16" Id="c0cecb9646c546949224c3c1841067b4" LabelOwner="[UIModel]272196c515584e35af57b81a39e4f428" Left="[float]430" Text="[string]Statas" Top="[float]333" Width="[float]32" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="02eaa9d954854b79a4cf6a2e96d516ce">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Wait_for_event" />
+					<EnumerationMember Value="1" Name="init" />
+					<EnumerationMember Value="2" Name="load_part_image" />
+					<EnumerationMember Value="3" Name="stop" />
+					<EnumerationMember Value="4" Name="get_parts_list" />
+					<EnumerationMember Value="5" Name="get_alloys_list" />
+					<EnumerationMember Value="6" Name="mao_recom_request" />
+					<EnumerationMember Value="7" Name="cxto_recom_request" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
